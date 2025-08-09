@@ -25,7 +25,7 @@ header{
     margin-top: 3%;
   }
 }
-ul{
+.list{
     display: flex;
     list-style-type: none;
     margin: 0;
@@ -36,7 +36,7 @@ ul{
    
 }
 
-li {
+.list-name {
       margin-right: 20px;
       padding: 10px 15px;
       color: white;
@@ -146,4 +146,16 @@ fieldset{
 }
 .part3{
   margin-top: 4%;
+}
+
+/* Section 4*/
+.section4{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.info-list{
+    gap: 80px;
+    margin: 3%;
+    margin-right: 200px;
 }
