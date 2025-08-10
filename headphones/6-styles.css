@@ -173,5 +173,71 @@ fieldset{
   content: "\e909";
 }
 footer{
-    background-color: red;
+    background-color: #001F3F;
+    height: 30vh;
+    margin-top: 4%;
+    
+}
+.footer{
+    display: flex;
+    padding: 70px;
+    justify-content: end;
+}
+.footer-icons{
+    justify-content: end;
+}
+.pentagon{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+.pentagon1{
+    width: 150px;
+    height: 150px;
+    background: red;
+    clip-path: polygon(
+        50% 0%,
+        95% 35%,
+        77% 95%,
+        23% 95%,
+        5% 35%
+    );
+}
+.pentagon2{
+    width: 150px;
+    height: 150px;
+    background: red;
+    clip-path: polygon(
+        50% 0%,
+        95% 35%,
+        77% 95%,
+        23% 95%,
+        5% 35%
+    );
+}
+.pentagon3{
+    width: 150px;
+    height: 150px;
+    background: red;
+    clip-path: polygon(
+        50% 0%,
+        95% 35%,
+        77% 95%,
+        23% 95%,
+        5% 35%
+    );
+}
+.pentagon4{
+    width: 150px;
+    height: 150px;
+    background: red;
+    clip-path: polygon(
+        50% 0%,
+        95% 35%,
+        77% 95%,
+        23% 95%,
+        5% 35%
+    );
 }

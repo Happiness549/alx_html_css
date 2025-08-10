@@ -159,6 +159,8 @@ fieldset{
     margin: 3%;
     margin-right: 200px;
 }
+
+
 .holberton_school-icon-ic_facebook:before {
   content: "\e908";
 }
@@ -173,5 +175,118 @@ fieldset{
   content: "\e909";
 }
 footer{
-    background-color: red;
+    background-color: #001F3F;
+    height: 30vh;
+    margin-top: 4%;
+    
+}
+.footer{
+    display: flex;
+    padding: 70px;
+    justify-content: end;
+}
+.footer-icons{
+    justify-content: end;
+}
+.footer-image{
+    margin-right: 70%;
+}
+.pentagon{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+.pentagon1{
+    width: 170px;
+    height: 170px;
+    background: red;
+    clip-path: polygon(
+        50% 0%,
+        95% 35%,
+        77% 95%,
+        23% 95%,
+        5% 35%
+    );
+}
+.pentagon2{
+    width: 170px;
+    height: 170px;
+    background: red;
+    clip-path: polygon(
+        50% 0%,
+        95% 35%,
+        77% 95%,
+        23% 95%,
+        5% 35%
+    );
+}
+.pentagon3{
+    width: 170px;
+    height: 170px;
+    background: red;
+    clip-path: polygon(
+        50% 0%,
+        95% 35%,
+        77% 95%,
+        23% 95%,
+        5% 35%
+    );
+}
+.pentagon4{
+    width: 170px;
+    height: 170px;
+    background: red;
+    clip-path: polygon(
+        50% 0%,
+        95% 35%,
+        77% 95%,
+        23% 95%,
+        5% 35%
+    );
+}
+
+.h1{
+    margin-top: 15%;
+}
+.p{
+    margin-top: 25%;
+}
+/*Animation*/
+/* Make the icon pulse continuously */
+.section-items .item i {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    color: #1e3a8a; /* Dark navy */
+  }
+  50% {
+    transform: scale(1.2);
+    color: #3b82f6; /* Brighter blue */
+  }
+}
+
+/* Make h1 text slide in from the left */
+.section-items .item h1 {
+  opacity: 0;
+  animation: slideInLeft 0.8s ease forwards;
+}
+
+.section-items .item:nth-child(1) h1 { animation-delay: 0.2s; }
+.section-items .item:nth-child(2) h1 { animation-delay: 0.4s; }
+.section-items .item:nth-child(3) h1 { animation-delay: 0.6s; }
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
